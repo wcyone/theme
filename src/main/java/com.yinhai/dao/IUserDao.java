@@ -10,4 +10,6 @@ import com.yinhai.entity.User;
  */
 public interface IUserDao {
     User selectUser(long id);
+
+    User updateUser(User user);
 }
